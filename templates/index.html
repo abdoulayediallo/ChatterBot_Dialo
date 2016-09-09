@@ -1,0 +1,297 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MC Chatter Bot</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="static/js/ie/html5shiv.js"></script><![endif]-->
+		<link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="static/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="static/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="static/css/ie9.css" /><![endif]-->
+
+ 
+	</head>
+<body >
+
+
+<!-- Header -->	
+	<header id ="header">
+	<!-- Navigation Bar -->
+		<nav id ="nav" >
+			<ul class="nav-pills pull-right">
+				<li class="active"><a href="#">HOME</a>
+				</li>
+				<li> <a href="#what" class="scrolly">ABOUT</a>
+				</li>
+				<li> <a href="#benefits" class="scrolly">BENEFITS</a>
+				</li>
+				<li> <a href="#application" class="scrolly">USE CASES</a>
+				</li>
+				<li> <a href="#footer" class="scrolly">CONTACT</a> 
+				</li>
+			</ul>
+		</nav>
+		<!-- Logo -->
+		<!-- <h3  class="text-muted"><a href="index.html">MC Chatter Bot </a> </h3> -->
+		
+		
+	<!-- Main Banner -->	
+		<div class="content">
+			<div style="height = 90px; line-height:90px;">
+					<img style="position:absolute; top: -30px; left: -25px; width:50%;height:50%; -webkit-transform: rotate(330deg);" src="./static/img/arvo.svg" alt=""/>
+					<h1>Hi. I'm <strong> Muta </strong> </h1>
+			</div>
+			<p>Your virtual assistant <br /> dedicated to make MC insurance simple.</p>
+			<ul class="actions">
+				<li><a href="mailto:sven.wauters@mc.be" class="button special icon fa-envelope">Send Feedback</a></li>
+				<li><a href="#what" class="button icon fa-chevron-down scrolly">Learn More</a></li>
+			</ul>
+		</div>
+		<div class="image phone">
+			<div class="inner">		
+				<div class="row">
+					<div class="col-md-12" >
+						<div class="panel panel-info" >
+						    <div class="panel-heading">
+                            <strong><span class="glyphicon glyphicon-list"></span> Chat History</strong>
+							</div>
+							<div class="panel-body">
+								<ul class="media-list">
+								</ul>
+							</div>
+							<div class="panel-footer">
+								<form method="post" id="chatbot-form">
+									<div class="input-group">
+										<input type="text" class="form-control" placeholder="Enter Message" name="messageText" id="messageText" autofocus/>
+										<span class="input-group-btn">
+                                        <button class="btn" type="button" id="chatbot-form-btn">SEND <span class="glyphicon glyphicon-send"></span></button>
+										</span>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+<!-- End Header -->
+	
+	
+<!-- Content -->
+	<!-- What is it and how it works -->
+	<section class="container" style="margin-top:2em;" id="what">
+		<h3>What is Muta?<span class="thedot"></span></h3>
+		<p> Muta is an Artificial Intelligent Assistant Agent that allows us to use real-time messaging to interact with customers and get closer to them, 
+		in a way that is faster than email and more effective and efficient than calling.
+		</p>
+		<div class="row">
+			<div class="col-lg-4 col-lg-offset-0">
+				<div class="thumbnail">
+				<span class="glyphicon glyphicon-comment" aria-hidden="true" style="font-size: 5em; color: #4696e5; padding-bottom:0.2em;"></span>
+				<p>User makes a request. Contextual inputs are used whenever the chat input needs to be something else than text. For example when the user is typing a password.</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-lg-offset-0">
+				<div class="thumbnail">
+				<span class="icon fa-desktop" aria-hidden="true" style="font-size: 5em; color: #4696e5;padding-bottom:0.2em;"></span>
+				<p> Our artifical intelligence machine learning algorithms interpets the request. 
+				<br /> User info taken into account (history, predreneces,...)</p>
+				</div>
+			</div>
+			<div class="col-lg-4 col-lg-offset-0">
+				<div class="thumbnail">
+				<span class="glyphicon glyphicon-tasks" aria-hidden="true" style="font-size: 5em; color: #4696e5;padding-bottom:0.2em;"></span>
+				<p> Real time response with rich customised widgets that can be designed as you wish and can have complex interaction, for example a widget with secure payment with Credit Card. </p>
+				</div>
+			</div>			
+		</div>
+	</section>
+		
+	<hr>
+	
+
+
+	
+	<!-- Benefits -->
+	<section class="container"  style="margin-top:2em;" id="benefits">	
+		<h3 >What are the benefits?</h3>
+			<div class="inner alt">
+					<section class="spotlight">
+						<span class="glyphicon glyphicon-retweet" aria-hidden="true" style="font-size: 6em; margin-left: auto; margin-right:1em;"></span>
+						<div class="content">	
+							<h3 style="color: #4696e5;">Better users'interaction</h3>
+							<p> There is much more control over what user sees and when. Compared to a conventional interface, 
+							chatbots show only a bit of information at a time, and can advance the interaction with a user based on user input at each specific point.
+							</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<span class="glyphicon glyphicon-search" aria-hidden="true" style="font-size: 6em; margin-left: 1em;"></span>	
+						<div class="content">
+							<h3 style="color: #4696e5;">Better needs understanding</h3>
+							<p>We collect everything the customer asks. 
+							This will help understand the personal users'needs so you can give the best possible experience and service.
+							On one hand, we can see to which questions we couldn't answer and directly implement this in the dialogue. 
+							So the next customer will get this question answered.
+							On the other hand, you can build an accurate profile of your customer. 
+							</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<span class="glyphicon glyphicon-euro" aria-hidden="true" style="font-size: 6em;  margin-left: auto; margin-right: 1em;"></span>
+						<div class="content">	
+							<h3 style="color: #4696e5;">Lower costs</h3>
+							<p>No congestion. The more customers interact with you, the less effort it will cost you to figure out how a question can be asked by the customer. 
+							Our AI Machine learning will do that for you.</p>
+						</div>
+					</section>
+			</div>
+	</section>
+
+
+	<hr>
+	
+	<!-- For what use-->
+	<section class="container" style="margin-top:2em;" id="application">
+		<h3>For what use?<span class="thedot"></span></h3>
+		<div class="row">
+			<div class="col-lg-4 col-lg-offset-0">
+				<div class="thumbnail">
+					<div class="caption">
+						<h3 style="color: #4696e5;">Customer support</h3>
+						<p> 
+						<ul  class="list-group">
+							<li class="list-group-item">User account information </li>
+							<li class="list-group-item">Product technical support </li>
+							<li class="list-group-item">Incident report </li>
+						</ul>
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-lg-4 col-lg-offset-0">
+				<div class="thumbnail">
+					<div class="caption">
+						<h3 style="color: #4696e5;">Sale and advice</h3>
+						<p> 
+						<ul class="list-group">
+							<li class="list-group-item">Suscribe a police </li>
+							<li class="list-group-item">Ask for personalized advices </li>
+						</ul>
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-lg-4 col-lg-offset-0">
+				<div class="thumbnail">
+				<div class="caption">
+						<h3 style="color: #4696e5;">Internal support</h3>
+						<p> 
+						<ul  class="list-group">
+							<li class="list-group-item"> Helpdesk (office application, etc)</li>
+							<li class="list-group-item"> HRs </li>
+							<li class="list-group-item"> Pratical services (room booking,...) </li>
+						</ul>
+						</p>
+					</div>	
+				</div>
+			</div>			
+		</div>
+	</section>
+		
+	<br/>
+	<br/>	
+	
+
+
+	<!-- Promo 
+	<section id="promo">
+		<h2>People won't search the internet, they'll <strong> <font color = "#fff" > converse </strong> </font> with it. &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+		<a href="#" class="button">GET IN TOUCH!</a> </h2>
+	</section>
+
+	-->
+ 
+	
+	
+	
+<!-- End Content -->
+
+
+	
+<!-- Footer -->
+	<footer id="footer">
+		<div class ="container">
+		<h2>Contact Us</h2>
+        <h5>
+		Have a question or just interested in sharing thoughts about the future of chatter bots and technology at ANMC, 
+					feel free to drop me a line. 
+					<strong> <font color = "#fff" >  We believe people won't search the internet, they'll  converse with it 
+					and I'd love to hear what you're thinking about!  </font> </strong>
+		 
+		   <br /> <br/ ><br/ >
+		   We’d love to hear from you
+		    <br />
+            <a href="mailto:sven.wauters@gmail.com" target="_top">DATALAB@MC.BE</a>
+            <br>
+            <br>
+		</h5>
+		<ul class="icons">
+			<li><a href="https://twitter.com/hometimize" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="https://github.com/sevazhidkov/eizoflexscan" class="icon fa-github"><span class="label">Github</span></a></li>
+			<li><a href="mailto:sven.wauters@mc.be" class="icon fa-envelope"><span class="label">Email</span></a></li>
+		</ul>
+		<p class="copyright">Created by <a href=""> MC Data Lab under MIT License</a></p>
+		</div>
+	</footer>
+
+   
+
+	    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<!-- Scripts -->
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.scrolly.min.js"></script>
+			<script src="static/js/skel.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<!--[if lte IE 8]><script src="static/js/ie/respond.min.js"></script><![endif]-->
+			<script src="static/js/main.js"></script>
+
+
+<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script>
+        $(function() {
+            $('#chatbot-form-btn').click(function(e) {
+                e.preventDefault();
+                $('#chatbot-form').submit();
+            });
+
+            $('#chatbot-form').submit(function(e) {
+                e.preventDefault();
+
+                var message = $('#messageText').val();
+                $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + 'You: ' + message + '<hr/  style="height: 0.5em; background-image:none"></div></div></div></li>');
+                $.ajax({
+                    type: "POST",
+                    url: "/ask",
+                    data: $(this).serialize(),
+                    success: function(response) {
+                        $('#messageText').val('');
+
+                        var answer = response.answer;
+                        $(".media-list").append('<li class="media"><div class="media-body"><div class="media"><div class="media-body">' + 'Muta: ' + answer + '<hr/ style="height: 0.5em; background-image:none"></div></div></div></li>');
+                    },
+                    error: function(error) {
+                        console.log(error);
+                    }
+                });
+            });
+        });
+</script>
+
+</body>
+</html>
